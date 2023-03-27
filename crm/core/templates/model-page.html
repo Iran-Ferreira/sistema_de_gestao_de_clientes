@@ -16,8 +16,10 @@
         {%include "model-header.html"%}
     </header>
 
-    <main>
-    {% block content%} {% endblock %}
+    <main class="content" style="margin-top: 5%;">
+        <div class="container">
+            {% block content%} {% endblock %}
+        </div>
     </main>
 
     <footer class="py-4 bg-dark text-white-50">
@@ -35,7 +37,7 @@
 
     footer{
         flex-shrink: none;
-        margin-top: 34em;
+        margin-top: 27em;
     }
 </style>
 </html>
