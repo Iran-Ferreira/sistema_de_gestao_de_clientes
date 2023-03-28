@@ -15,7 +15,7 @@ from django.db.models import Q
 
 class CustomerListView(ListView):
     template_name = "customer/customer-list.html"
-    paginate_by = 2
+    paginate_by = 5
     model = Customer
     
     def get_queryset(self):
